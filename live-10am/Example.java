@@ -6,5 +6,13 @@ public class Example{
         // System.out.println("Hello World");
 
         p.displayData();
-    }
+       String info = p.getInfo();
+       System.out.println(info);
+       p.acceptInfo("Please Start OOPS Fast");
+       String more = p.moreInfoCourse(3000.0);
+       System.out.println(more);
+
+
+
+       }
 }
